@@ -1,0 +1,83 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+  text-align: center;
+
+  /* border: 1px red solid; */
+
+
+}
+
+/*Light Box Styles*/
+.lb-number{
+  visibility: hidden;
+}
+.lb-data .lb-details {
+  width: 97%;
+  text-align: center;
+  margin-top: .75em;
+  padding-top: .5em;
+}
+.lb-data .lb-caption {
+  font-size: 16px;
+  font-weight: normal;
+  width: 600px;
+  line-height: 1.5em;
+}
+.lb-caption{
+  display: inline-block;
+  width: 600px;
+}
+
+
+
+/* Element Styles */
+ input[type="text" i] {
+   padding: .5em;
+   border-radius: 10px;
+   width: 25%;
+   min-width: 230px;
+   border: 1px solid grey;
+   /* background-color: white; */
+
+ }
+ input:focus{
+   outline: none;
+ }
+
+ul {
+  list-style: none;
+  margin: 1em auto;
+  padding: 1em;
+}
+
+li{
+  display: inline-block;
+  padding: 1em;
+  margin: 1em;
+}
+img{
+  border-radius: 50%;
+
+}
+
+
+
+/* Class Styles */
+.header{
+  margin: 2em auto;
+  padding: 1em;
+}
+
+.gallery{
+  width: 75%;
+  margin: 1em auto;
+  max-width: 1350px;
+}
+
+
+/* Media Queries */
+@media (min-width: 768px) {
+
+
+}
